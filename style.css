@@ -1,0 +1,146 @@
+/* header */
+
+.header {
+    margin: 0px;
+    background-color: #FFF8F3;
+    padding-bottom: 0px;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+/*-------------------------- nav bar ----------------------------*/
+
+nav {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: center;
+}
+
+.logo h3 {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.logo span {
+    color: #FD6E0A;
+}
+
+.nav-item ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-item li {
+    list-style: none;
+    margin: 20px 27px;
+    align-items: center;
+}
+
+.nav-item li a {
+    text-decoration: none;
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-primary {
+    width: 150px;
+    height: 64px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+.button-primary a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/*-------------------------- banner section----------------------------------- */
+
+.banner {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* .banner-section1 {
+    color: rgba(24, 24, 24, 0.15);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 23px;
+    transform: rotate(-90deg);
+    margin: 0px;
+    padding: 0px;
+} */
+
+.banner-content {
+    padding: 20px 10px 0px 100px;
+}
+
+.banner-pic {
+    padding-right: 40px;
+}
+
+.banner-pic img {
+    width: 510px;
+    height: 638px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+.banner-title {
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.banner-text {
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    width: 585px;
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
